@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator PPM</title>
+</head>
+
+<body>
+    <br>
+    <form id="formId">
+        <label for="PPM-Pattern">Wzór na PPM</label>
+        <select name="pattern" id="PPM-Pattern">
+            <option value="PPM-M">Wzór Mifflina</option>
+            <option value="PPM-HB">Wzór Harrisa-Benedicta</option>
+        </select>
+        <label for="sex">Płeć</label>
+        <select name="sex" id="sex">
+            <option value="woman">Kobieta</option>
+            <option value="man">Mężczyzna</option>
+        </select>
+        <label for="age">Wiek</label>
+        <input name="age" id="age" type="number" min="16" max="100" step="1" required />
+        <label for="weight">Masa ciała</label>
+        <input name="weight" id="weight" type="number" min="20" max="200" step="1" required />
+        <label for="height">Wzrost</label>
+        <input name="height" id=" height" type="number" min="120" max="250" step="1" required />
+        <button type="submit">Oblicz</button>
+    </form></br>
+    <p class="result"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
